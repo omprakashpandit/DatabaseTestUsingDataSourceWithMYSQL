@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/DatabaseTest">
+
+	<!-- 
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="50" 
+		maxIdle="20" maxWait="10000" name="jdbc/gamingtest" password="Gob!nda$" removeAbandoned="true" 
+		removeAbandonedTimeout="60" logAbandoned="true" type="javax.sql.DataSource" 
+		url="jdbc:mysql://103.54.108.4:3306/gamingtest?autoreconnect=true" username="root" />
+	 -->	
+<!-- <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="50" 
+		maxIdle="20" maxWait="10000" name="jdbc/testgaming" password="mysqladmin" removeAbandoned="true" 
+		removeAbandonedTimeout="60" logAbandoned="true" type="javax.sql.DataSource" 
+		url="jdbc:mysql://192.168.0.20:3306/testgaming?autoreconnect=true" username="root" />
+ -->		
+	 <Resource 
+	 name="jdbc/zap"
+	 auth="Container"
+	 type="javax.sql.DataSource" 
+	 maxActive="50" 
+	 maxIdle="20"
+	 maxWait="10000" 
+	 driverClassName="com.mysql.jdbc.Driver" 
+	 url="jdbc:mysql://localhost:3306/zap?autoreconnect=true"
+	 username="root"
+	 password="root"
+	/>
+	 <!-- removeAbandoned="true" 
+	 removeAbandonedTimeout="60" 
+	 logAbandoned="true" 
+	 -->	 
+
+	 
+	 
+	<!-- 	 <property name="driverClassName" value="com.mysql.jdbc.Driver" />	
+		
+			<property name="url" value="jdbc:mysql://192.168.0.20:3306/gaming?autoreconnect=true"/>
+			<property name="username" value="root" /> 
+			<property name="password" value="mysqladmin"/>  -->
+		 				
+		 				
+	
+</Context>
